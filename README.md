@@ -1,33 +1,34 @@
-# 🔍 Consulta de CEP com API REST
+# 🔍 ZIP Code Search App (REST API)
 
-Aplicação web responsiva desenvolvida em JavaScript puro para busca de endereços a partir do CEP, consumindo a API pública do ViaCEP.
-
----
-
-### 🖥️ Demonstração Online
-> 🔗 **Acesse o projeto em funcionamento:** [https://shini-bot.github.io/consulta-cep-js/](https://shini-bot.github.io/consulta-cep-js/)
+A responsive web application built with vanilla JavaScript that allows users to look up address details by Brazilian ZIP code (CEP), fetching real-time data from the ViaCEP REST API.
 
 ---
 
-### ✨ Funcionalidades
-- [x] Busca automática de endereço ao inserir o CEP.
-- [x] Tratamento de erros para CEPs inválidos ou inexistentes.
-- [x] Formatação automática do input (remove caracteres não numéricos).
-- [x] Interface limpa e totalmente responsiva.
+### 🖥️ Live Demo
+> 🔗 **Check out the live application:** [https://shini-bot.github.io/consulta-cep-js/](https://shini-bot.github.io/consulta-cep-js/)
 
 ---
 
-### 🛠️ Tecnologias Utilizadas
-- **HTML5** (Estruturação semântica)
-- **CSS3** (Flexbox, estilização e responsividade)
-- **JavaScript (ES6+)** (Requisições assíncronas com `fetch` e `async/await`, manipulação do DOM)
-- **ViaCEP API** (Serviço web gratuito de CEP)
+### ✨ Features
+- [x] Automatic address lookup upon submitting a valid ZIP code.
+- [x] Input sanitization (automatically removes non-numeric characters).
+- [x] Error handling for invalid or non-existent ZIP codes.
+- [x] Clean, user-friendly, and fully responsive UI.
 
 ---
 
-### ⚙️ Como rodar o projeto localmente
+### 🛠️ Built With
+- **HTML5** (Semantic structure)
+- **CSS3** (Flexbox, styling, and media queries)
+- **JavaScript (ES6+)** (Asynchronous HTTP requests using `fetch` and `async/await`, DOM manipulation)
+- **ViaCEP API** (Free RESTful web service for address retrieval)
+
+---
+
+### ⚙️ Getting Started Locally
+
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone [https://github.com/shini-bot/consulta-cep-js.git](https://github.com/shini-bot/consulta-cep-js.git)
 
-# Abra o arquivo index.html no navegador
+# Open index.html in your preferred browser
