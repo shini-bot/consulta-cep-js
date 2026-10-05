@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de CEP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>🔍 Buscar Endereço por CEP</h1>
+    <div class="search-box">
+      <input type="text" id="cepInput" placeholder="Digite o CEP (ex: 01001000)" maxlength="8">
+      <button id="btnBuscar">Buscar</button>
+    </div>
+
+    <div id="resultado" class="result-card hidden">
+      <p><strong>Logradouro:</strong> <span id="logradouro">-</span></p>
+      <p><strong>Bairro:</strong> <span id="bairro">-</span></p>
+      <p><strong>Cidade:</strong> <span id="localidade">-</span></p>
+      <p><strong>Estado:</strong> <span id="uf">-</span></p>
+    </div>
+    
+    <p id="erro" class="error-msg"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
